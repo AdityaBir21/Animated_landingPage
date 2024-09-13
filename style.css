@@ -1,0 +1,347 @@
+@font-face {
+  font-family: japan;
+  src: url(./3856NeueMachina.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.section1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.part2 {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+button {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+nav h1 {
+  font-size: 35px;
+  font-family: japan;
+}
+
+nav h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav h1 i {
+  display: inline-block;
+  rotate: 45deg;
+  font-size: 40px;
+}
+
+.center {
+  max-height: 80%;
+  width: 100%;
+  display: flex;
+  padding: 40px;
+}
+
+.center_part1 {
+  height: 100%;
+  width: 50%;
+}
+
+.center_part2 {
+  min-height: 100%;
+  width: 55%;
+  position: relative;
+}
+.center_part2 img {
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.center_part1 h1 {
+  font-size: 75px;
+  font-family: japan;
+  margin-bottom: 12px;
+}
+.center_part1 p {
+  font-size: 20px;
+  margin-bottom: 17px;
+}
+.center_part1 button {
+  background-color: black;
+  color: #ffff;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+
+.section1bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 120px;
+  height: 80px;
+}
+
+.last {
+  width: 120px;
+}
+
+.section2 {
+  height: 100%;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.section2 .services {
+  padding: 20px 40px 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  margin: 30px 0 30px 0;
+  font-family: "Trebuchet MS";
+}
+
+.section2 h3 {
+  background-color: #bdff65;
+  font-weight: 600;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 40px;
+  font-family: japan;
+}
+
+.section2 p {
+  width: 40%;
+  font-size: 17px;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.element {
+  flex-shrink: 0;
+  height: 270px;
+  width: 46%;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0px 10px 0px black;
+  display: flex;
+}
+.element-part1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.element-part1 h2 {
+  font-size: 30px;
+  width: 70%;
+  padding: 0px 5px;
+  font-weight: 600;
+  background-color: #bdff65;
+  border-radius: 8px;
+  font-family: japan;
+}
+.element-part1 h4 {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 10px;
+}
+.element-part1 i {
+  background-color: black;
+  border-radius: 50%;
+  color: #fff;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.element-part2 {
+  height: 100%;
+  width: 50%;
+}
+.element-part2 img {
+  height: 100%;
+  padding-left: 25px;
+}
+
+.box {
+  background-color: black;
+}
+
+.box h2 {
+  background-color: #fff;
+  font-size: 30px;
+  width: 70%;
+  padding: 0px 5px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.box i {
+  background-color: #fff;
+  border-radius: 50%;
+  color: black;
+  padding: 10px;
+  font-weight: 400;
+}
+.box h4 {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  gap: 10px;
+}
+
+.section3 {
+  height: 100%;
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.container2 {
+  height: 310px;
+  width: 80%;
+  background-color: #e0dddd84;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  border-radius: 50px;
+  margin-bottom: 60px;
+}
+.part-1 {
+  height: 100%;
+  width: 40%;
+}
+.part-1 h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: japan;
+  margin-bottom: 15px;
+}
+.part-1 p {
+  font-size: 20px;
+  margin-bottom: 26px;
+}
+.part-1 button {
+  background-color: black;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 15px;
+}
+
+.part-2 {
+  height: 100%;
+  width: 40%;
+}
+.part-2 img {
+  max-height: 260px;
+  padding-left: 60px;
+}
+
+.casestudy {
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+  margin: 20px 0 30px 0;
+  font-family: "Trebuchet MS";
+  margin-bottom: 20px;
+}
+
+.casestudy h3 {
+  background-color: #bdff65;
+  font-weight: 600;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-size: 40px;
+  font-family: japan;
+}
+
+.casestudy p {
+  width: 40%;
+  font-size: 17px;
+}
+
+.rectangle {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.block {
+  height: 320px;
+  width: 90%;
+  display: flex;
+  background-color: black;
+  justify-content: space-between;
+  border-radius: 50px;
+  padding: 50px 70px;
+  font-family: Verdana;
+}
+.block p {
+  font-size: 19px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.block h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #bdff65;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.block i {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#block1 {
+  height: 100%;
+  width: 22%;
+}
